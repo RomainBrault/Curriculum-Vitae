@@ -1,0 +1,49 @@
+sudo: false
+language: generic
+os: osx
+osx_image: xcode8.2
+
+cache:
+  directories:
+    - $HOME/Library/Caches/Homebrew
+  bundler: true
+
+branches:
+  only:
+    - master
+
+notifications:
+  email:
+    on_success: never
+    on_failure: never
+
+before_install:
+  - brew update
+  - brew upgrade
+  - brew install ghostscript
+  - brew install imagemagick
+  - brew install caskroom/cask/brew-cask
+  - travis_retry travis_wait 180 brew cask install mactex
+
+script:
+  - chmod +x compile && travis_wait 180 bash compile -fg
+
+after_success:
+  # CREATE GIT TAG
+  - cp bin/RomainBraultCV.pdf .
+  - git config --global user.email "ro.brault@gmail.com"
+  - git config --global user.name "Travis CI"
+  - export GIT_TAG=build-$TRAVIS_BRANCH-$(date -u "+%Y-%m-%d")-$TRAVIS_BUILD_NUMBER
+  - git add RomainBraultCV.pdf
+  - git commit -m "Travis generation of ThesisRomainBrault.pdf"
+  - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
+  - git push --quiet git@github.com:RomainBrault/Curriculum-Vitae.git $GIT_TAG > /dev/null 2>&1
+
+#  # push on publish branch
+#  - git checkout --orphan publish
+#  - git rm -r .
+#  - rm -r .
+#  - cp bin/ThesisRomainBrault.pdf .
+#  - git add -A
+#  - git commit -m "Travis generation of ThesisRomainBrault.pdf"
+#  - git push -u publish
