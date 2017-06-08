@@ -36,8 +36,10 @@ after_success:
   - export GIT_TAG=build-$TRAVIS_BRANCH-$(date -u "+%Y-%m-%d")-$TRAVIS_BUILD_NUMBER
   - git add RomainBraultCV.pdf
   - git commit -m "Travis generation of ThesisRomainBrault.pdf"
-  - git tag $GIT_TAG -a -m "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
-  - git push --quiet git@github.com:RomainBrault/Curriculum-Vitae.git $GIT_TAG > /dev/null 2>&1
+  - git tag $GIT_TAG -a -m \
+    "Generated tag from TravisCI build $TRAVIS_BUILD_NUMBER"
+  - git push --quiet git@github.com:RomainBrault/Curriculum-Vitae.git \
+    $GIT_TAG > /dev/null 2>&1
 
 #  # push on publish branch
 #  - git checkout --orphan publish
