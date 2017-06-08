@@ -1,0 +1,210 @@
+\documentclass{tccv}
+\usepackage[english]{babel}
+\usepackage[a-1b]{pdfx}
+\usepackage{url}
+\usepackage{pythontex}
+\usepackage{nth}
+
+\begin{filecontents*}{\jobname.xmpdata}
+    \Title{Curriculum Vitae}
+    \Author{Romain R. Brault}
+    \Keywords{CV \sep Machine Learning \sep Big Data \sep Deep Learning \sep
+    Data Science}
+\end{filecontents*}
+
+\begin{document}
+
+\part{\textsc{Romain Brault}}
+
+\section{Professional Experience}
+
+\begin{eventlist}
+
+\item{Jan.~2014 --- Now}
+     {\textbf{Operalib --- Paris-Saclay Center for Data Science}}
+     {\large \textit{Machine learning, software engineering.}}
+
+Main countributor and founder of
+\href{https://github.com/operalib/operalib}{Operalib}. Operalib is a library
+for structured learning and prediction for python. The idea is to predict
+silmultaneously several targets while taking into account of the structures
+between the targets.
+
+\vspace{-5mm}\paragraph{}
+Referee: \href{http://perso.telecom-paristech.fr/~fdalche/Site/index.html}{Pr.
+Florence \textsc{d'Alch\'e-Buc}}.
+
+\item{Oct.~2013 --- 2016}
+     {\textbf{Teaching Assistant --- UEVE}}
+     {}
+
+\vspace{-5mm}
+{Teaching Assistant: OCaml, Operating systems, Logic, C, Discrete
+optimization.}
+
+\item{Mai 2013 --- Sep.~2013}
+     {\textbf{Reasearch intern at Imperial College London --- Faculty of
+     Natural Sciences, Department of Mathematics.}}
+     {\large \textit{Simulation, software engineering.}}
+
+Worked on Firedrake: performance portable Automated code generation for
+simulation sofware. Modified Fluidity to generate bended Lagrange elements for
+the FEniCS Form Compiler.
+
+\vspace{-5mm}\paragraph{}
+Referee: \href{https://www3.imperial.ac.uk/people/david.ham/}{Dr. David
+\textsc{Ham}}.
+
+
+\item{Jun.~2012 --- Jul.~2012}
+     {\textbf{Reasearch intern at Centre des Math\'ematiques et Leurs
+     Applications --- CMLA, ENS Cachan.}}
+     {\large \textit{Big Data and Machine Learning.}}
+
+
+Implementation of a CPU parallel stochastic gradient descent using the OpenMP
+library and the x86 SSE instruction set. Also worked on a CUDA accelerated
+algorithm. Learned about big data challenges, high performance algorithm and
+ranking methods.
+\vspace{-5mm}\paragraph{}
+Referee: \href{http://nvayatis.perso.math.cnrs.fr/}{Pr. Nicolas
+\textsc{Vayatis}}.
+
+% \item{Sep. 2011 -- Sep. 2012}
+%      {\bf  Treasurer and Consultant at Junior-Enterprise Di\`ese.}
+%      {\large \textit{Accounting, consulting and project management.} }
+
+% Management of a work-group of 3 individuals among a team of 8 individuals.
+% Accounted and budgeted the association during one year (about 70K€ revenue).
+% Consultant in 3 smaller structures in France as an active auditor of the
+% National Confederation of Junior Enterprises.
+
+\item{Jun.~2011 --- Aug.~2011}
+     {\textbf{Reasearch intern at French Alternative Energies and Atomic Energy
+     Commission --- CEA}$\mathbf{{}^2}$.}
+     {\textit{\large Contribution of Machine Learning for the calibration a
+     nuclear reaction software.} }
+
+Applied supervised learning technics (SVM) to calibrate a simulation code for
+nuclear reactions (TALYS). Conception of statistical learning tools with R.
+Used MPI to launch multiple instance of TALYS on TERA 100 with different inputs
+parameters.
+
+\vspace{-5mm}\paragraph{}
+Referee: \href{mailto:pierre.dossantos-uzarralde@cea.fr}{Dr. Pierre
+\textsc{Dossantos-Uzarralde}}.
+
+\vspace{15cm}
+
+\end{eventlist}
+
+\personal%
+    {15 rue Plumet, apt.~1 --- Paris 75015 (FR)}
+    {+33 (0)6 82 14 72 05 }
+    {romain.brault@telecom-paristech.fr}
+
+\section{Education}
+
+\begin{yearlist}
+\item[Machine Learning]{2013 --- 2017}
+     {Ph.~D.~. Thesis defense the \nth{3} Jul. 2017}
+     {UEVE \& T\'el\'ecom-ParisTech}
+
+\item[Computer Science]{2012 --- 2013}
+     {Master of Science.}
+     {Imperial College London.}
+
+\item[Computer Science]{2010 --- 2013}
+     {Dipl\^ome d'Ing\'enieur.}
+     {ENSIIE, \'Evry, France.}
+
+\item[Math]{2010 --- 2011}
+     {Bachelor of Science.}
+     {UEVE, \'Evry, France.}
+
+\item[Math, Physics, Computer Science]{2008 --- 2010}
+     {Preparatory classes to the Grandes \'Ecoles.}
+     {MPSI/MP* Albert Schweitzer.}
+
+\end{yearlist}
+
+
+\section{Awards}
+
+\begin{yearlist}
+
+\item{2012}
+     {Imperial College London: Machine Learning and Neural Computation.}
+     {Best individual project out of 109.}
+
+\item{2011}
+     {Junior Enterprise Di\`ese: 2011 best engineering project.}
+     {Rewarded by \textsc{Alten} and \textsc{Os\'eo} to our team of 10
+     students.}
+
+\end{yearlist}
+
+\section{Communication Skills}
+
+\begin{factlist}
+\item{French:}{Mother tongue.}
+\item{English:}{Fluent.}
+\item{German:}{Basic knowledge.}
+\end{factlist}
+
+\section{Technical Skills}
+
+\begin{factlist}
+
+\item{Languages}
+     {C, C++, cmake, Fortran, OCaml, Matlab, Maple, R, x86 assembly, Latex}
+
+\end{factlist}
+
+\cleardoublepage%
+\section{Publications}
+\begin{yearlist}
+\item[R. Brault, M. Heinonen, F. d'Alch\'e-Buc]{2016}
+     {Random Fourier Features for Operator-Valued Kernels}
+     {Proceedings of 8th Asian Conference in Machine Learning}
+
+\item[R. Brault, F. d'Alch\'e-Buc]{2017}
+     {Operator Random Fourier Features: a generalization}
+     {To be submited at JMLR}
+
+\item[N. Goix, R. Brault, N. Drougard, M, Chiapino]{2017}
+     {One Class Splitting Criteria for Random Forests with Application to
+     Anomaly Detection}
+     {Under review at ECML}
+
+\end{yearlist}
+
+\section{Communication acts}
+\begin{yearlist}
+\item[R. Brault, N. Lim, F. d'Alch\'e-Buc]{2016}
+     {Scaling up Vector Autoregressive Models With Operator-Valued Random
+     Fourier Features.}
+     {Proceedings of 2nd ECML/PKDD Workshop on Advanced Analytics and Learning
+     on Temporal Data.}
+
+\item[R. Brault, F. d'Alch\'e-Buc]{2016}
+     {Borne sur l'approximation de noyaux à valeurs opérateurs à l'aide de
+     transformées de Fourier.}
+     {Proceedings of 48th days of Statistics of the SFdS.}
+
+\item[S. Varet, P. Dossantos-Uzarralde, N. Vayatis, R. Brault, and E.
+Bauge.]{2011}
+     {Experimental Covariances Contributions to Evaluated Cross Section
+     Uncertainty Determination.}
+     {Proceedings of the Second Workshop on Neutron Cross Section Covariances,
+     Vienna.}
+\end{yearlist}
+
+\section{Personal interests}
+
+\begin{itemize}
+\item Archery, climbing, trekking,
+\href{https://500px.com/romainbrault}{photography}.
+\end{itemize}
+
+\end{document}

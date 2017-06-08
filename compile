@@ -1,0 +1,172 @@
+#!/usr/bin/env sh
+#==============================================================================
+# HEADER
+#==============================================================================
+#% SYNOPSIS
+#+    ${SCRIPT_NAME} [-ocbfushv]
+#%
+#% DESCRIPTION
+#%    Use this scipt to compile my thesis
+#%
+#% OPTIONS
+#%    -o, --output                  Output folder, default ./bin
+#%    -c, --compiler                pdf latex compiler, default xelatex
+#%    -b, --build                   Build folder, default ./build
+#%    -f, --help                    Force compilation from scratch
+#%    -u, --update                  Pull latest version from git
+#%    -s, --synctex                 Use synctex, default OFF
+#%    -h, --help                    Print this help
+#%    -v, --version                 Print script information
+#%    -S, --sign                    Sign document with pgp
+#%    -V, --verify                  Verify document with pgp
+#%    -g, --generate                Generate figures with pythontex
+#%
+#% EXAMPLES
+#%    ${SCRIPT_NAME} -o DEFAULT arg1 arg2
+#%
+#==============================================================================
+#- IMPLEMENTATION
+#     name            ${SCRIPT_NAME}
+#-    version         0.1
+#-    author          Romain Brault
+#-    copyright       Copyright (c) Romain Brault
+#-    license         GNU General Public License
+#-
+#==============================================================================
+#  HISTORY
+#     2017/01/01 : RomainBrault : Script creation
+#
+#==============================================================================
+# END_OF_HEADER
+#==============================================================================
+
+set -e
+
+# Needed variables
+SCRIPT_HEADSIZE=$(head -200 ${0} |grep -n "^# END_OF_HEADER" | cut -f1 -d:)
+SCRIPT_NAME="$(basename ${0})"
+
+# Usage functions
+usage() {
+    printf "Usage: ";
+    head -${SCRIPT_HEADSIZE:-99} ${0} \
+    | grep -e "^#+" | \
+    sed -e "s/^#+[ ]*//g" -e "s/\${SCRIPT_NAME}/${SCRIPT_NAME}/g" ;
+}
+usagefull() {
+    head -${SCRIPT_HEADSIZE:-99} ${0} \
+    | grep -e "^#[%+-]" | \
+    sed -e "s/^#[%+-]//g" -e "s/\${SCRIPT_NAME}/${SCRIPT_NAME}/g" ;
+}
+scriptinfo() {
+    head -${SCRIPT_HEADSIZE:-99} ${0} \
+    | grep -e "^#-" | \
+    sed -e "s/^#-//g" -e "s/\${SCRIPT_NAME}/${SCRIPT_NAME}/g";
+}
+
+for arg in "$@"; do
+  shift
+  case "$arg" in
+    "--help")
+        set -- "$@" "-h" ;;
+    "--version")
+        set -- "$@" "-v" ;;
+    "--update")
+        set -- "$@" "-u" ;;
+    "--force")
+        set -- "$@" "-f" ;;
+    "--output")
+        set -- "$@" "-o" ;;
+    "--build")
+        set -- "$@" "-b" ;;
+    "--synctex")
+        set -- "$@" "-s" ;;
+    "--sign")
+        set -- "$@" "-S" ;;
+    "--verify")
+        set -- "$@" "-V" ;;
+    "--generate")
+        set -- "$@" "-g" ;;
+    *)
+        set -- "$@" "$arg" ;;
+  esac
+done
+
+# A POSIX variable
+OPTIND=1         # Reset in case getopts has been used previously in the shell.
+UPDATE=false
+FORCE=false
+SIGN=false
+VERIFY=false
+GENERATE=false
+OUTPUT=bin
+BUILD=build
+SYNCTEX=OFF
+COMPILER=xelatex
+
+while getopts ":hvufo:b:sSVg" opt; do
+    case "$opt" in
+    h)
+        usagefull; exit 0  ;;
+    v)
+        scriptinfo; exit 0  ;;
+    u)
+        UPDATE=true ;;
+    f)
+        FORCE=true ;;
+    s)
+        SYNCTEX=ON ;;
+    S)
+        SIGN=true ;;
+    V)
+        VERIFY=true ;;
+    o)
+        OUTPUT=${OPTARG} ;;
+    c)
+        COMPILER=${OPTARG} ;;
+    b)
+        BUILD=${OPTARG} ;;
+    g)
+        GENERATE=true ;;
+    \?)
+        usage; exit 0 ;;
+    esac
+done
+
+echo ${GENERATE}
+
+# Update
+if [[ ${UPDATE} = true ]]; then
+    git pull github master
+fi
+
+# Remove temporary files
+if [[ ${FORCE} = true ]]; then
+    rm -rf ${BUILD} || true
+    rm -rf ${OUTPUT} || true
+fi
+
+# Configure and Build
+mkdir -p ${BUILD}
+cd ${BUILD}
+if [[ ${FORCE} = true ]]; then
+    cmake -DCMAKE_VERBOSE_MAKEFILE:BOOL=OFF \
+          -DLATEX_OUTPUT_PATH=${OUTPUT} \
+          -DPDFLATEX_COMPILER=${COMPILER} \
+          -DLATEX_USE_SYNCTEX:BOOL=${SYNCTEX} \
+          ..
+fi
+time make
+
+cd ..
+
+# Sign document with pgp
+if [[ ${SIGN} = true ]]; then
+    gpg2 --armor --detach-sig ${OUTPUT}/cap2017.pdf
+fi
+if [[ ${VERIFY} = true ]]; then
+    gpg --keyserver pgp.mit.edu \
+        --recv-keys A276D73294A106E2544FFF9E3E5B5D0B181C5E04
+    gpg2 --verify ${OUTPUT}/cap2017.pdf.asc \
+                  ${OUTPUT}/cap2017.pdf
+fi
