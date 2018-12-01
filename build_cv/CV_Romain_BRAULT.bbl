@@ -1,0 +1,250 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{pmlr-v63-Brault39}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e002707ec065c9bf9a1a121fd1541a9f}{%
+           family={Brault},
+           familyi={B\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cdaf9b82010acfd23f1aea226a05d9b9}{%
+           family={Heinonen},
+           familyi={H\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6f82d836af8625efbbcd7763d875c1bf}{%
+           family={d'Alch{é}-Buc},
+           familyi={d\bibinithyphendelim B\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{da932685b85abc8cc2e7d859bd3ef8d0}
+      \strng{fullhash}{9eccaa42981904161b7aa33e0793647f}
+      \strng{bibnamehash}{9eccaa42981904161b7aa33e0793647f}
+      \strng{authorbibnamehash}{9eccaa42981904161b7aa33e0793647f}
+      \strng{authornamehash}{da932685b85abc8cc2e7d859bd3ef8d0}
+      \strng{authorfullhash}{9eccaa42981904161b7aa33e0793647f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Devoted to multi-task learning and structured output learning, operator-valued kernels provide a flexible tool to build vector-valued functions in the context of Reproducing Kernel Hilbert Spaces. To scale up these methods, we extend the celebrated Random Fourier Feature methodology to get an approximation of operator-valued kernels. We propose a general principle for Operator-valued Random Fourier Feature construction relying on a generalization of Bochner’s theorem for translation-invariant operator-valued Mercer kernels. We prove the uniform convergence of the kernel approximation for bounded and unbounded operator random Fourier features using appropriate Bernstein matrix concentration inequality. An experimental proof-of-concept shows the quality of the approximation and the efficiency of the corresponding linear models on example datasets.}
+      \field{booktitle}{Proceedings of The 8th Asian Conference on Machine Learning}
+      \field{month}{16--18 Nov}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{Random Fourier Features For Operator-Valued Kernels}
+      \field{volume}{63}
+      \field{year}{2016}
+      \field{pages}{110\bibrangedash 125}
+      \range{pages}{16}
+      \verb{file}
+      \verb http://proceedings.mlr.press/v63/Brault39.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://proceedings.mlr.press/v63/Brault39.html
+      \endverb
+      \verb{url}
+      \verb http://proceedings.mlr.press/v63/Brault39.html
+      \endverb
+    \endentry
+    \entry{brault2016scaling}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e002707ec065c9bf9a1a121fd1541a9f}{%
+           family={Brault},
+           familyi={B\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e74077efb8ff5a02fa9f4ccb2d5a1e03}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={N{é}h{é}my},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8a7c84003e1ff2bccd679a6ade819e27}{%
+           family={d’Alch{é}-Buc},
+           familyi={d\bibinithyphendelim B\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{da932685b85abc8cc2e7d859bd3ef8d0}
+      \strng{fullhash}{32fb313d98b02258927178a98881fb32}
+      \strng{bibnamehash}{32fb313d98b02258927178a98881fb32}
+      \strng{authorbibnamehash}{32fb313d98b02258927178a98881fb32}
+      \strng{authornamehash}{da932685b85abc8cc2e7d859bd3ef8d0}
+      \strng{authorfullhash}{32fb313d98b02258927178a98881fb32}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{AALTD: ECML/PKDD International Workshop on Advanced Analytics and Learning on Temporal Data}
+      \field{title}{Scaling up Vector Autoregressive Models With Operator-Valued Random Fourier Features.}
+      \field{year}{2016}
+      \field{pages}{3}
+      \range{pages}{1}
+      \verb{file}
+      \verb https://aaltd16.irisa.fr/files/2016/08/AALTD16_paper_11.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://aaltd16.irisa.fr/accepted-papers/
+      \endverb
+      \verb{url}
+      \verb https://aaltd16.irisa.fr/accepted-papers/
+      \endverb
+    \endentry
+    \entry{braul2017}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=e002707ec065c9bf9a1a121fd1541a9f}{%
+           family={Brault},
+           familyi={B\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e002707ec065c9bf9a1a121fd1541a9f}
+      \strng{fullhash}{e002707ec065c9bf9a1a121fd1541a9f}
+      \strng{bibnamehash}{e002707ec065c9bf9a1a121fd1541a9f}
+      \strng{authorbibnamehash}{e002707ec065c9bf9a1a121fd1541a9f}
+      \strng{authornamehash}{e002707ec065c9bf9a1a121fd1541a9f}
+      \strng{authorfullhash}{e002707ec065c9bf9a1a121fd1541a9f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{2017SACLE024}
+      \field{title}{Large-scale operator-valued kernel regression}
+      \field{type}{phdthesis}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://www.theses.fr/2017SACLE024/document
+      \endverb
+      \verb{url}
+      \verb http://www.theses.fr/2017SACLE024/document
+      \endverb
+    \endentry
+    \entry{pmlr-v77-goix17a}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3dd9c058e3377e383ff6d8888e462400}{%
+           family={Goix},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e2cd1f531e3244ac7689e9b0f0274c49}{%
+           family={Drougard},
+           familyi={D\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e002707ec065c9bf9a1a121fd1541a9f}{%
+           family={Brault},
+           familyi={B\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a6060c2931c2f8133ada26efc315f3aa}{%
+           family={Chiapino},
+           familyi={C\bibinitperiod},
+           given={Ma{ë}l},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{cc045fc2667e93d1a5de67d4823776c9}
+      \strng{fullhash}{cfa44dd6af19b0a9c9428b81c360ce53}
+      \strng{bibnamehash}{cc045fc2667e93d1a5de67d4823776c9}
+      \strng{authorbibnamehash}{cc045fc2667e93d1a5de67d4823776c9}
+      \strng{authornamehash}{cc045fc2667e93d1a5de67d4823776c9}
+      \strng{authorfullhash}{cfa44dd6af19b0a9c9428b81c360ce53}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Random Forests (RFs) are strong machine learning tools for classification and regression. However, they remain supervised algorithms, and no extension of RFs to the one-class setting has been proposed, except for techniques based on second-class sampling. This work fills this gap by proposing a natural methodology to extend standard splitting criteria to the one-class setting, structurally generalizing RFs to one-class classification. An extensive benchmark of seven state-of-the-art anomaly detection algorithms is also presented. This empirically demonstrates the relevance of our approach.}
+      \field{booktitle}{Proceedings of the Ninth Asian Conference on Machine Learning}
+      \field{month}{15--17 Nov}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{One Class Splitting Criteria for Random Forests}
+      \field{volume}{77}
+      \field{year}{2017}
+      \field{pages}{343\bibrangedash 358}
+      \range{pages}{16}
+      \verb{file}
+      \verb http://proceedings.mlr.press/v77/goix17a/goix17a.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://proceedings.mlr.press/v77/goix17a.html
+      \endverb
+      \verb{url}
+      \verb http://proceedings.mlr.press/v77/goix17a.html
+      \endverb
+    \endentry
+    \entry{brault2018infinite}{unpublished}{}
+      \name{author}{5}{}{%
+        {{hash=e002707ec065c9bf9a1a121fd1541a9f}{%
+           family={Brault},
+           familyi={B\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f2c3eec6a304dd50614944111ed5e9a4}{%
+           family={Lambert},
+           familyi={L\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e5c6cb3693ab94e5bfb09a7a887ba214}{%
+           family={Szab{ó}},
+           familyi={S\bibinitperiod},
+           given={Zolt{á}n},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=770f881d3d15b20fe1cb3b9d79280198}{%
+           family={Sangnier},
+           familyi={S\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6f82d836af8625efbbcd7763d875c1bf}{%
+           family={d'Alch{é}-Buc},
+           familyi={d\bibinithyphendelim B\bibinitperiod},
+           given={Florence},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{da932685b85abc8cc2e7d859bd3ef8d0}
+      \strng{fullhash}{43fb3d828257ae9e5008d5eb3e91f053}
+      \strng{bibnamehash}{da932685b85abc8cc2e7d859bd3ef8d0}
+      \strng{authorbibnamehash}{da932685b85abc8cc2e7d859bd3ef8d0}
+      \strng{authornamehash}{da932685b85abc8cc2e7d859bd3ef8d0}
+      \strng{authorfullhash}{43fb3d828257ae9e5008d5eb3e91f053}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1805.08809}
+      \field{title}{Infinite-Task Learning with Vector-Valued RKHSs}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://arxiv.org/pdf/1805.08809.pdf
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/pdf/1805.08809.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,33 @@
+import os
+
+AddOption('--prefix',
+          dest='prefix',
+          type='string',
+          nargs=1,
+          action='store',
+          metavar='DIR',
+          default='..',
+          help='installation prefix')
+dir_path = Dir('.').abspath
+
+env = Environment(ENV=os.environ,
+                  PREFIX=GetOption('prefix'))
+
+env.Replace(PDFLATEX='lualatex')
+env.AppendUnique(PDFLATEXFLAGS='-shell-escape')
+env.AppendUnique(PDFLATEXFLAGS='-interaction=batchmode')
+env.AppendUnique(PDFLATEXFLAGS='-halt-on-error')
+env.AppendUnique(PDFLATEXFLAGS='-file-line-error')
+
+# Look in standard directory ~/texmf for .sty files.
+env.SetDefault(TEXMFHOME=os.path.join(os.environ['HOME'], 'texmf'))
+
+name = 'resume_Romain_BRAULT'
+source = {name: name + '.tex'}
+dependencies = [Glob('*.sty'), Glob('*.cls'), Glob('*.bib'), Glob('*.cfg'),
+                Glob('fonts/*') ]
+
+env.Depends(source.values(), dependencies)
+pdf = env.PDF(source.values())
+env.Install('$PREFIX/bin', pdf)
+env.Precious(pdf)

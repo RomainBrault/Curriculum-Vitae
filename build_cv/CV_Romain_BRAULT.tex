@@ -1,0 +1,469 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Freeman Curriculum Vitae
+% XeLaTeX Template
+% Version 2.0 (19/3/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%!TEX program = xelatex
+% NOTICE: This template must be compiled with XeLaTeX, the line above should
+% ensure this happens automatically but if it doesn't you will need to specify
+% XeLaTeX as the engine in your editor or script
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%------------------------------------------------------------------------------
+%
+\documentclass[10pt]{article} % Font size, can be: 10pt, 11pt or 12pt
+\input{structure.tex} % Include the file that specifies the document structure
+%
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{}
+% commands
+% Example right footer:
+\lfoot{\color{headings}{\sffamily Last update: \today.}}
+\rfoot{\thepage~of~2}
+%
+%------------------------------------------------------------------------------
+%
+\begin{document}
+\begin{paracol}{2} % Begin the multi-column environment
+%
+%------------------------------------------------------------------------------
+%   NAME AND CURRICULUM VITAE TEXT
+%------------------------------------------------------------------------------
+%
+\parbox[top][0.12\textheight][c]{\linewidth}{ %
+% Parbox to hold the author name and CV text; fixed height to match the
+% coloured box to the right, centred vertically and full line width
+    \vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate
+                              % it from the main content
+    \centering % Centre text
+    {\sffamily\Huge Romain R. Brault}\\\medskip % Your name
+    {\Huge\color{headings}\cvtextfont Curriculum Vitae}
+}
+\switchcolumn % Switch to the next paracol column
+%
+%------------------------------------------------------------------------------
+%   COLOURED CONTACT DETAILS BOX
+%------------------------------------------------------------------------------
+%
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box;
+    % fixed height to match the name/CV text to the left, centred vertically
+    % and full line width
+    \vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate
+    % it from the main content
+    \colorbox{shade}{ % Create the coloured box
+        \begin{supertabular}{p{0.05\linewidth}|p{0.775\linewidth}} % Start a
+        %table with two columns, the table will ensure everything is aligned
+            \raisebox{-1pt}{\faHome} &
+                Paris (75015),
+                France\\ % Address
+            \raisebox{-1pt}{\faPhone} & +33 (0)6 82 14 72 05 (private) \\
+            \raisebox{0pt}{\small\faEnvelope} &
+                \href{mailto:mail@romainbrault.com}{ %
+                      mail@romainbrault.com} \\ % Email address
+            \raisebox{-1pt}{\faGithub} &
+                \href{https://github.com/RomainBrault}{ %
+                      RomainBrault} \\ % GitHub profile
+            \raisebox{-1pt}{\faLinkedinSquare} &
+                \href{https://www.linkedin.com/in/romain-brault}{ %
+                      /in/romain-brault} \\ % LinkedIn profile
+            \raisebox{-1pt}{\faGraduationCap} &
+                \href{https://scholar.google.fr/citations?user=IFkrCzYAAAAJ}{ %
+                IFkrCzYAAAAJ} \\
+        \end{supertabular}
+    }
+}
+\end{paracol}
+\begin{center}
+    \textbf{TL;\,DR:} Dynamic and curious, I am a Machine Learning and
+    programing enthusiast looking for a research position, in France or abroad.
+\end{center}
+\medskip
+\begin{paracol}{2}
+%
+%------------------------------------------------------------------------------
+%   MAJOR RESEARCH PROJECT
+%------------------------------------------------------------------------------
+%
+\section{Doctoral Research}
+%
+{\raggedright\textbf{``Large-Scale Operator-Valued Kernel
+                       Regression"} \citep{braul2017}\\\medskip}
+%
+%My research examined the use of ELW pulses from a mode-locked source array
+%inducted through transuranic crystals to observe entanglement on supraquantum
+%structures. Theoretical advancements included prediction of quantum resonance
+%phenomena including the possibility of resonance cascades. I was motivated to
+%conduct this doctoral research due to my passion for teleportation of matter
+%and I believe I have laid the foundation for further experimental validation
+%and development of practical outcomes.
+My research examined the scalability of learning algorithms based on
+Operator-Valued Kernels (OVKs) leveraging regression in Hilbert spaces rather
+than reals. \par
+\hspace*{5pt} We developed a stochastic approximation method called ORFF,
+extending the already existing random Fourier feature methodology to OVKs
+\citep{pmlr-v63-Brault39}. We provied theorical guarantees on the quality of
+the approximation. We applied this work to scale-up non-linear autoregressive
+models \citep{brault2016scaling}. We also proposed a scalable splitting
+criteria that extend Random Forests to one-class classification
+\citep{pmlr-v77-goix17a}. \par
+\hspace*{5pt}
+My doctoral studies have been motivated by my desire to applied mathematical
+knowledge to practical applications. I enjoy providing robust pieces of
+software along with theoretical guarantees. During this thesis I have been
+conducted to develop and maintain the open-source library
+\href{https://github.com/operalib/operalib}{Operalib} which aims at
+implementing state of the art operator-valued kernel based algorithms and being
+fully compatible with
+\href{http://scikit-learn.org/stable/index.html}{Scikit-Learn}. I also had the
+opportunity to be a teaching assistant at
+\href{https://www.univ-evry.fr/accueil.html}{UEVE} and
+\href{https://www.telecom-paristech.fr/}{T\'el\'ecom ParisTech}.
+%
+\medskip % Extra whitespace before the next section
+%
+%------------------------------------------------------------------------------
+%   WORK EXPERIENCE
+%------------------------------------------------------------------------------
+%
+\section{Positions}
+%
+% Blank \workposition command to add another job:
+%
+%\workposition{} % Duration
+%{} % FT/PT (full time or part time)
+%{} % Employer
+%{} % Job title
+%{} % Description
+%
+% All 5 parameters must be supplied but any can be empty if you don't need them
+%
+%------------------------------------------------------------------------------
+%
+\workposition{Current, from December 2017} % Duration
+{FT} % FT/PT (full time or part time)
+{III-V Lab, Thal\`es} % Employer
+{Research Scientist} % Job title
+{}\par % Description
+\workposition{October 2018, from September 2017} % Duration
+{FT} % FT/PT (full time or part time)
+{Centrale-Sup\'elec} % Employer
+{Post-Doctoral Fellow} % Job title
+{My research have been directed toward learning function-valued functions. The
+idea is that some problems such as Quantile Regression, Cost-Sensitive learning
+or Level-Set estimation are described by an hyperparameter. Rather than solving
+the problem for a specific value of the hyperparameter, we propose to learn the
+whole continuum of hyperparameters. Then we can enforce stronger coherence of
+the learned models (non-crossing quantiles, nested level sets) and sometimes
+improve the overall quality of the models \citep{brault2018infinite}. We
+provide a Tensorflow implementation of the proposed method
+(\href{https://bitbucket.org/RomainBrault/itl/}{https://bitbucket.org/RomainBrault/itl/}).
+This postdoc is done in collaboration with the
+\href{https://portail.polytechnique.edu/cmap/fr}{CMAP} laboratory at \'Ecole
+Polytechnique.
+}\par \newpage % Description
+\workposition{September 2013, from Mai 2013}
+{FT}
+{Department of Computing, Imperial College London}
+{Master Thesis}
+{Worked on Finite Elements Method: modified
+\href{http://fluidityproject.github.io/publications/}{Fluidity}'s code to
+integrate bended elements to the \href{https://fenicsproject.org/}{FEniCS}
+project.}\par
+\workposition{July 2012, from June 2012}
+{FT}
+{CMLA, ENS Cachan}
+{Research Intern}
+{Implementation of a parallel lock-free SGD algorithm using OpenMP and SSE
+instructions.  Also worked on a CUDA GPGPU implementation.}\par
+\workposition{August 2011, from June 2011}
+{FT}
+{CEA${}^2$}
+{Research Intern}
+{Used Machine Learning techniques to calibrate the hyperparameters of a
+simulation code for nuclear reactions
+(\href{http://www.talys.eu/home/}{TALYS}).}\par
+%%
+%%------------------------------------------------------------------------------
+%%   SKILLS DESCRIPTION
+%%------------------------------------------------------------------------------
+%%
+%\section{Soft Skills}
+%%
+%% Example \longformdescription{} command to add another section:
+%%
+%%\longformdescription{Heading}{Description}
+%%
+%%------------------------------------------------
+%%
+%\longformdescription{Open Minded}{I like listen to everyone's viewpoints, take
+%decisions accordingly, and enjoy to keep learning through discussions.}\par
+%%
+%\longformdescription{Passionate}{I have been interested in computer science for
+%a long time now and my education and research have cemented this interest into
+%a passion. I particularly enjoy machine learning because it is at the crossroad
+%of a large spectrum of disciplines, and requires to always learn more about
+%many subjects.}\par
+%%
+%\longformdescription{Innovation with guarantees}{During my postgraduate studies
+%I took great pleasure in tackling challenging problems with rigor: studying the
+%state of the art, proposing new solutions, studying them empirically and
+%theoretically but also providing robust a implementation by documenting and
+%using continuous integration tools.}\par
+%
+%------------------------------------------------------------------------------
+%   PUBLICATIONS
+%------------------------------------------------------------------------------
+%
+\section{Publications}
+\printbibliography[heading=subbibliography,type=article,title={Proceedings}]
+\par
+\printbibliography[heading=subbibliography,type=inproceedings,title={Communication}]
+\par
+\printbibliography[heading=subbibliography,type=unpublished,title={Preprint}]
+\par
+\printbibliography[heading=subbibliography,type=thesis,title={Thesis}]
+\par
+%\printbibliography[keyword=review,title={To appear}]
+\switchcolumn % Switch to the next paracol column
+%
+%------------------------------------------------------------------------------
+%   EDUCATION
+%------------------------------------------------------------------------------
+%
+\section{Education}
+%
+% Blank \educationentry{} command to add another degree:
+%
+%\educationentry{} % Duration
+%{} % Degree
+%{} % Honours, achievements or distinctions (e.g. first class honours)
+%{} % Department
+%{} % Institution
+%
+% All 5 parameters must be supplied but any can be empty if you don't need them
+%
+%------------------------------------------------------------------------------
+%
+\begin{supertabular}{rl} % Start a table with two columns, the table will
+% ensure everything is aligned
+%
+%------------------------------------------------
+%
+    \educationentry{2013 -- 2017} % Duration
+    {Doctor of Philosophy} % Degree
+    {} % Honours, achievements or distinctions (e.g. first class honours)
+    {Machine Learning} % Department
+    {\href{https://www.ibisc.univ-evry.fr/}{UEVE} \&
+     \href{https://ltci.telecom-paristech.fr/}{T\'el\'ecom ParisTech}}
+    % Institution
+%
+%------------------------------------------------
+%
+    \educationentry{2012-2013} % Duration
+    {Master of Science} % Degree
+    {} % Honours, achievements or distinctions (e.g. first class honours)
+    {Computer Science} % Department
+    {\href{http://www.imperial.ac.uk/computing}{Imperial College London}} %
+    % Institution
+%
+%------------------------------------------------
+%
+    \educationentry{2010 -- 2013} % Duration
+    {Dipl\^ome d'ing\'enieur} % Degree
+    {} % Honours, achievements or distinctions (e.g. first class honours)
+    {Computer Science} % Department
+    {\href{http://www.ensiie.fr/}{ENSIIE, Paris-Saclay}}
+    % Institution
+%
+%------------------------------------------------
+%
+    \educationentry{2010 -- 2011} % Duration
+    {Bachelor of Science} % Degree
+    {} % Honours, achievements or distinctions (e.g. first class honours)
+    {Mathematics} % Department
+    {\href{https://www.univ-evry.fr/accueil.html}{UEVE, Paris-Saclay}}
+    % Institution
+%
+%------------------------------------------------
+%
+\end{supertabular}
+%
+%------------------------------------------------------------------------------
+%   LANGUAGES
+%------------------------------------------------------------------------------
+%
+\section{Languages}
+\begin{supertabular}{rl} % Start a table with two columns, the table will
+    % ensure everything is aligned
+    \tableentry{}{\textbf{French} (native), \textbf{English} (Fluent),}{}
+    \tableentry{}{\textbf{German} (notions)}{spaceafter}
+\end{supertabular}
+%
+%------------------------------------------------------------------------------
+%   TECHNICAL SKILLS
+%------------------------------------------------------------------------------
+%
+\section{Technical Skills}
+%
+% Example \tableentry{} command to add another line:
+%
+%\tableentry{Heading}{Content}{spaceafter}
+%
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space --
+% this is to be used between headings
+%
+%------------------------------------------------
+%
+\begin{supertabular}{rl} % Start a table with two columns, the table will
+% ensure everything is aligned
+%
+%------------------------------------------------
+%
+    %\tableentry{Beginner}
+    \tableentry{        }{Pandas, Python, Tensorflow, Scikit-Learn,}{spaceafter}
+%%
+%%------------------------------------------------
+%%
+    %\tableentry{Intermediate}
+    \tableentry{            }{\texttt{C/C++}, x86 Assembly, Hardware,}{}
+    \tableentry{            }{OpenMP, MPI, Continuous Integration,}{}
+    \tableentry{            }{Open-source contribs,}{spaceafter}
+%
+%------------------------------------------------
+%
+    %\tableentry{Expert}
+    \tableentry{      }{\LaTeX, Machine Learning, Statistics,}{}
+    \tableentry{      }{Functional Analysis}{spaceafter}
+%
+%------------------------------------------------
+%
+\end{supertabular}
+%
+%------------------------------------------------------------------------------
+%   REFERENCES
+%------------------------------------------------------------------------------
+%
+\section{References}
+%
+%\textit{References available on request}
+%
+%------------------------------------------------
+%
+% Example \tableentry{} command to add another line:
+%
+%\tableentry{Heading}{Content}{spaceafter}
+%
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space --
+% this is to be used between headings
+%
+%------------------------------------------------
+%
+\begin{supertabular}{rl} % Start a table with two columns, the table will
+% ensure everything is aligned
+%
+%------------------------------------------------
+%
+    \tableentry{}{\textbf{Pr.~Florence \textsc{d'Alch\'e-Buc}}}{spaceafter}
+    \tableentry{Position}{Full Professor}{}
+    \tableentry{Employer}{\href{https://ltci.telecom-paristech.fr/}%
+                               {\textit{LTCI}},
+                          \href{https://www.telecom-paristech.fr/} %
+                               {\textit{T\'el\'ecom ParisTech}}}{spaceafter}
+    \tableentry{Email}{\href{mailto:florence.dalche@telecom-paristech.fr}%
+                      {florence.dalche@enst.fr}}{}
+    \tableentry{Phone}{+33 (0)1 45 81 79 76 (Work)}{}
+%
+%------------------------------------------------
+%
+    \tableentry{}{}{} % Creates some additional whitespace between the
+    % references
+%
+%------------------------------------------------
+%
+    \tableentry{}{\textbf{Dr.~Zolt\'an \textsc{Szab\'o}}}{spaceafter}
+    \tableentry{Position}{Associate Professor}{}
+    \tableentry{Employer}{\href{https://portail.polytechnique.edu/cmap/fr}
+                               {CMAP},
+                          \href{https://www.polytechnique.edu/}
+                               {\'Ecole Polytechnique}}{spaceafter}
+    \tableentry{Email}{\href{mailto:zoltan.szabo@polytechnique.edu}%
+                            {zoltan.szabo@polytechnique.edu}}{}
+    \tableentry{Phone}{available on request}{}
+%
+%------------------------------------------------
+
+\end{supertabular}
+%
+\medskip % Extra whitespace before the next section
+%
+%------------------------------------------------------------------------------
+%   AWARDS
+%------------------------------------------------------------------------------
+%
+\section{Distinctions}
+%
+% Example \tableentry{} command to add another line:
+%
+%\tableentry{Heading}{Content}{spaceafter}
+%
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space --
+% this is to be used between headings
+%
+%------------------------------------------------
+%
+\begin{supertabular}{rp{5.8cm}} % Start a table with two columns, the table
+% will ensure everything is aligned
+%
+%------------------------------------------------
+%
+    \tableentry{2012}{\textbf{Best engineering project}}{}
+    \tableentry{}{National reward to our team  for the
+    \href{https://www.altenrecrute.fr/blog-alten/evenements/alten-recompense-la-junior-entreprise-diese}%
+    {best engineering project} among the French Junior
+    Entreprises.}{spaceafter}
+%
+%------------------------------------------------
+%
+    \tableentry{2011}{\textbf{Top Achiever Award}}{}
+    \tableentry{}{\textit{Best Individual Project (out of 109)}}{}
+    \tableentry{}{Implemented a kernel SGD algorithm
+    (\href{http://users.cecs.anu.edu.au/~williams/papers/P172.pdf}{NORMA}) for
+    house market prediction in London.}{spaceafter}
+%
+%------------------------------------------------
+%
+\end{supertabular}
+%
+%------------------------------------------------------------------------------
+%   HOBBYS
+%------------------------------------------------------------------------------
+%
+\section{Hobbys}
+In my spare time I enjoy practicing photography
+(see \href{https://500px.com/romainbrault/}{500px.com/romainbrault}) as well as
+climbing and trekking. I used to practice archery.
+%
+%------------------------------------------------------------------------------
+%
+\end{paracol}
+%
+%------------------------------------------------------------------------------
+%
+\huge\centering\adforn{40}
+%
+\end{document}
