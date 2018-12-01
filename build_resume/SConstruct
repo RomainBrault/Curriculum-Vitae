@@ -1,13 +1,5 @@
 import os
 
-AddOption('--prefix',
-          dest='prefix',
-          type='string',
-          nargs=1,
-          action='store',
-          metavar='DIR',
-          default='..',
-          help='installation prefix')
 dir_path = Dir('.').abspath
 
 env = Environment(ENV=os.environ,

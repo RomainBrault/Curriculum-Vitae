@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2018.11.30)  1 DEC 2018 12:11
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2018.11.30)  1 DEC 2018 13:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2233,7 +2233,7 @@ Overfull \hbox (3.05263pt too wide) in paragraph at lines 86--86
 
 Requested font "Ubuntu/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 0pt
- -> ^^À^^P^^B}-V
+ -> ^^À^^9^^7^^=V
 
 LaTeX Font Warning: Font shape `TU/Ubuntu(0)/m/sc' undefined
 (Font)              using `TU/Ubuntu(0)/m/n' instead on input line 99.
@@ -2246,7 +2246,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
 Requested font "Ubuntu/OT:script=latn;language=DFLT;mapping=tex-text;" at 8.0pt
- -> ^^Ð^^4^^E}-V
+ -> ^^Ð^^^^;^^=V
 Requested font "Ubuntu/OT:script=latn;language=DFLT;mapping=tex-text;" at 12.0p
 t
  -> 
@@ -2293,7 +2293,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--189
  []
 
 Requested font "Ubuntu/OT:script=latn;language=DFLT;mapping=tex-text;" at 6.0pt
- -> ^^ o^^N}-V
+ -> `Y^^D^^=V
 Requested font "cmmi12" at 12.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 Requested font "cmmi8" at 8.0pt
@@ -2325,7 +2325,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
 Requested font "Ubuntu/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 12.
 0pt
- -> 0^^×^^P}-V
+ -> ^^ ^^À^^F^^=V
 
 Package biblatex Warning: Month out of range
 (biblatex)                at entry 'pmlr-v63-Brault39' on input line 230.
@@ -2356,7 +2356,7 @@ Package biblatex Warning: Month out of range
 
 Requested font "Ubuntu/I/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 0pt
- -> ^^ð^^^^S}-V
+ -> `^^í^^I^^=V
 
 Underfull \hbox (badness 1215) in paragraph at lines 236--236
 []\TU/Ubuntu(0)/m/sc/10 Romain Brault. â€œLarge-scale operator-valued kernel re-
@@ -2373,7 +2373,7 @@ LaTeX Font Warning: Font shape `TU/Ubuntu(0)/bx/sc' undefined
 
 Requested font "Ubuntu/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 0pt
- -> ^^0^^í^^U}-V
+ -> ^^à^^×^^K^^=V
 
 Overfull \hbox (11.12877pt too wide) in paragraph at lines 375--417
 []
@@ -2393,7 +2393,7 @@ Overfull \hbox (4.80482pt too wide) in paragraph at lines 429--456
 
 Requested font "Ubuntu/OT:script=latn;language=DFLT;mapping=tex-text;" at 20.74
 pt
- -> `^^ð^^U}-V
+ -> ^^P^^Ú^^K^^=V
 Requested font "OrnementsADF" at 20.74pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/arkandis/adforn/OrnementsADF.tfm
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 469.
