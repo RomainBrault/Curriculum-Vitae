@@ -1,18 +1,18 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'CV_Romain_BRAULT.blg'
-[15] biber:313> INFO - === sam. déc.  1, 2018, 13:16:20
-[28] Biber.pm:371> INFO - Reading 'CV_Romain_BRAULT.bcf'
-[67] Biber.pm:857> INFO - Found 5 citekeys in bib section 0
-[74] Biber.pm:3976> INFO - Processing section 0
-[80] Biber.pm:4136> INFO - Looking for bibtex format file 'references.bib' for section 0
-[81] bibtex.pm:1489> INFO - LaTeX decoding ...
-[87] bibtex.pm:1305> INFO - Found BibTeX data source 'references.bib'
-[95] Utils.pm:193> WARN - month field '16--18 Nov' in entry 'pmlr-v63-Brault39' is not an integer - this will probably not sort properly.
-[104] Utils.pm:193> WARN - month field '15--17 Nov' in entry 'pmlr-v77-goix17a' is not an integer - this will probably not sort properly.
-[117] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[117] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[117] Biber.pm:3804> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[117] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[124] bbl.pm:617> INFO - Writing 'CV_Romain_BRAULT.bbl' with encoding 'UTF-8'
-[125] bbl.pm:720> INFO - Output to CV_Romain_BRAULT.bbl
-[125] Biber.pm:110> INFO - WARNINGS: 2
+[15] biber:313> INFO - === lun. janv. 14, 2019, 23:14:39
+[27] Biber.pm:371> INFO - Reading 'CV_Romain_BRAULT.bcf'
+[65] Biber.pm:857> INFO - Found 5 citekeys in bib section 0
+[73] Biber.pm:3976> INFO - Processing section 0
+[79] Biber.pm:4136> INFO - Looking for bibtex format file 'references.bib' for section 0
+[80] bibtex.pm:1489> INFO - LaTeX decoding ...
+[86] bibtex.pm:1305> INFO - Found BibTeX data source 'references.bib'
+[94] Utils.pm:193> WARN - month field '16--18 Nov' in entry 'pmlr-v63-Brault39' is not an integer - this will probably not sort properly.
+[103] Utils.pm:193> WARN - month field '15--17 Nov' in entry 'pmlr-v77-goix17a' is not an integer - this will probably not sort properly.
+[116] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[116] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[116] Biber.pm:3804> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[116] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[122] bbl.pm:617> INFO - Writing 'CV_Romain_BRAULT.bbl' with encoding 'UTF-8'
+[124] bbl.pm:720> INFO - Output to CV_Romain_BRAULT.bbl
+[124] Biber.pm:110> INFO - WARNINGS: 2

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2018.11.30)  1 DEC 2018 13:16
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2018.11.30)  14 JAN 2019 23:14
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2233,7 +2233,7 @@ Overfull \hbox (3.05263pt too wide) in paragraph at lines 86--86
 
 Requested font "Ubuntu/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 0pt
- -> ^^À^^9^^7^^=V
+ -> PEhZ^^U
 
 LaTeX Font Warning: Font shape `TU/Ubuntu(0)/m/sc' undefined
 (Font)              using `TU/Ubuntu(0)/m/n' instead on input line 99.
@@ -2246,7 +2246,7 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
 Requested font "Ubuntu/OT:script=latn;language=DFLT;mapping=tex-text;" at 8.0pt
- -> ^^Ð^^^^;^^=V
+ -> 0*lZ^^U
 Requested font "Ubuntu/OT:script=latn;language=DFLT;mapping=tex-text;" at 12.0p
 t
  -> 
@@ -2293,7 +2293,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--189
  []
 
 Requested font "Ubuntu/OT:script=latn;language=DFLT;mapping=tex-text;" at 6.0pt
- -> `Y^^D^^=V
+ -> @^^åtZ^^U
 Requested font "cmmi12" at 12.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 Requested font "cmmi8" at 8.0pt
@@ -2325,7 +2325,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
 Requested font "Ubuntu/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 12.
 0pt
- -> ^^ ^^À^^F^^=V
+ -> P^^vZ^^U
 
 Package biblatex Warning: Month out of range
 (biblatex)                at entry 'pmlr-v63-Brault39' on input line 230.
@@ -2356,7 +2356,13 @@ Package biblatex Warning: Month out of range
 
 Requested font "Ubuntu/I/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 0pt
- -> `^^í^^I^^=V
+ -> ^^0^^1yZ^^U
+
+Package biblatex Warning: Type 'unpublished' not found on input line 234.
+
+
+LaTeX Warning: Empty bibliography on input line 234.
+
 
 Underfull \hbox (badness 1215) in paragraph at lines 236--236
 []\TU/Ubuntu(0)/m/sc/10 Romain Brault. â€œLarge-scale operator-valued kernel re-
@@ -2373,7 +2379,7 @@ LaTeX Font Warning: Font shape `TU/Ubuntu(0)/bx/sc' undefined
 
 Requested font "Ubuntu/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 0pt
- -> ^^à^^×^^K^^=V
+ -> ^^À^^{Z^^U
 
 Overfull \hbox (11.12877pt too wide) in paragraph at lines 375--417
 []
@@ -2393,7 +2399,7 @@ Overfull \hbox (4.80482pt too wide) in paragraph at lines 429--456
 
 Requested font "Ubuntu/OT:script=latn;language=DFLT;mapping=tex-text;" at 20.74
 pt
- -> ^^P^^Ú^^K^^=V
+ -> ^^P^^{Z^^U
 Requested font "OrnementsADF" at 20.74pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/arkandis/adforn/OrnementsADF.tfm
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 469.
@@ -2412,10 +2418,10 @@ Package logreq Info: Writing requests to 'CV_Romain_BRAULT.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41521 strings out of 492962
- 798773 string characters out of 6135708
- 1213191 words of memory out of 5000000
- 45199 multiletter control sequences out of 15000+600000
+ 41520 strings out of 492962
+ 798751 string characters out of 6135708
+ 1212191 words of memory out of 5000000
+ 45198 multiletter control sequences out of 15000+600000
  536925 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  54i,13n,85p,976b,5306s stack positions out of 5000i,500n,10000p,200000b,80000s

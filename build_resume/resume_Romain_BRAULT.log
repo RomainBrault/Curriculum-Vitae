@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2018.11.30)  1 DEC 2018 13:16
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2018.11.30)  14 JAN 2019 23:12
  system commands enabled.
  file:line:error style messages enabled.
 **resume_Romain_BRAULT.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.068 seconds (/usr/share/texli
+luaotfload | main : initialization completed in 0.071 seconds (/usr/share/texli
 ve/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -2456,7 +2456,7 @@ Here is how much of LuaTeX's memory you used:
  1186 words of node memory still in use:
    3 hlist, 2 vlist, 1 rule, 62 glue, 66 attribute, 72 glue_spec, 66 attribute_l
 ist, 1 write, 1 pdf_action nodes
-   avail lists: 1:1,2:1599,3:499,4:257,5:780,6:99,7:8833,8:289,9:493,10:21,11:69
+   avail lists: 1:1,2:1599,3:499,4:259,5:780,6:99,7:8835,8:289,9:493,10:21,11:69
 9,12:1
  42316 multiletter control sequences out of 65536+600000
  90 fonts using 17137715 bytes
@@ -2468,7 +2468,7 @@ ubuntu/Ubuntu-RI.ttf></usr/share/fonts/truetype/ubuntu/Ubuntu-BI.ttf></usr/share
 tf><./fonts/FontAwesome.otf><./fonts/freebooterscript.ttf></usr/share/fonts/open
 type/linux-libertine/LinBiolinum_R.otf></usr/share/texlive/texmf-dist/fonts/type
 1/arkandis/adforn/OrnementsADF.pfb>
-Output written on resume_Romain_BRAULT.pdf (1 page, 81665 bytes).
+Output written on resume_Romain_BRAULT.pdf (1 page, 81786 bytes).
 
 PDF statistics: 139 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams

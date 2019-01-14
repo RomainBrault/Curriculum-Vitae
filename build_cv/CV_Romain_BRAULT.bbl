@@ -196,7 +196,7 @@
       \verb http://proceedings.mlr.press/v77/goix17a.html
       \endverb
     \endentry
-    \entry{brault2018infinite}{unpublished}{}
+    \entry{brault2018infinite}{article}{}
       \name{author}{5}{}{%
         {{hash=e002707ec065c9bf9a1a121fd1541a9f}{%
            family={Brault},
@@ -234,9 +234,9 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:1805.08809}
+      \field{journaltitle}{Proceedings of AISTATS}
       \field{title}{Infinite-Task Learning with Vector-Valued RKHSs}
-      \field{year}{2018}
+      \field{year}{2019}
       \verb{urlraw}
       \verb https://arxiv.org/pdf/1805.08809.pdf
       \endverb
