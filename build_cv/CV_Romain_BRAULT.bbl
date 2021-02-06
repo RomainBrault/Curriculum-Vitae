@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -31,8 +31,8 @@
            familyi={H\bibinitperiod},
            given={Markus},
            giveni={M\bibinitperiod}}}%
-        {{hash=6f82d836af8625efbbcd7763d875c1bf}{%
-           family={d'Alch{é}-Buc},
+        {{hash=7baa420315d9f9b2e82e06febf765d35}{%
+           family={d'Alché-Buc},
            familyi={d\bibinithyphendelim B\bibinitperiod},
            given={Florence},
            giveni={F\bibinitperiod}}}%
@@ -41,13 +41,14 @@
         {PMLR}%
       }
       \strng{namehash}{da932685b85abc8cc2e7d859bd3ef8d0}
-      \strng{fullhash}{9eccaa42981904161b7aa33e0793647f}
-      \strng{bibnamehash}{9eccaa42981904161b7aa33e0793647f}
-      \strng{authorbibnamehash}{9eccaa42981904161b7aa33e0793647f}
+      \strng{fullhash}{0f3a66c981bf873cc539dbfae69a1386}
+      \strng{bibnamehash}{0f3a66c981bf873cc539dbfae69a1386}
+      \strng{authorbibnamehash}{0f3a66c981bf873cc539dbfae69a1386}
       \strng{authornamehash}{da932685b85abc8cc2e7d859bd3ef8d0}
-      \strng{authorfullhash}{9eccaa42981904161b7aa33e0793647f}
+      \strng{authorfullhash}{0f3a66c981bf873cc539dbfae69a1386}
+      \field{extraname}{1}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Devoted to multi-task learning and structured output learning, operator-valued kernels provide a flexible tool to build vector-valued functions in the context of Reproducing Kernel Hilbert Spaces. To scale up these methods, we extend the celebrated Random Fourier Feature methodology to get an approximation of operator-valued kernels. We propose a general principle for Operator-valued Random Fourier Feature construction relying on a generalization of Bochner’s theorem for translation-invariant operator-valued Mercer kernels. We prove the uniform convergence of the kernel approximation for bounded and unbounded operator random Fourier features using appropriate Bernstein matrix concentration inequality. An experimental proof-of-concept shows the quality of the approximation and the efficiency of the corresponding linear models on example datasets.}
@@ -76,25 +77,26 @@
            familyi={B\bibinitperiod},
            given={Romain},
            giveni={R\bibinitperiod}}}%
-        {{hash=e74077efb8ff5a02fa9f4ccb2d5a1e03}{%
+        {{hash=94ff3c0db5ea74ad8e2bc708ada7ab43}{%
            family={Lim},
            familyi={L\bibinitperiod},
-           given={N{é}h{é}my},
+           given={Néhémy},
            giveni={N\bibinitperiod}}}%
-        {{hash=8a7c84003e1ff2bccd679a6ade819e27}{%
-           family={d’Alch{é}-Buc},
+        {{hash=f1684e6e1df63554109693e435134d2e}{%
+           family={d’Alché-Buc},
            familyi={d\bibinithyphendelim B\bibinitperiod},
            given={Florence},
            giveni={F\bibinitperiod}}}%
       }
       \strng{namehash}{da932685b85abc8cc2e7d859bd3ef8d0}
-      \strng{fullhash}{32fb313d98b02258927178a98881fb32}
-      \strng{bibnamehash}{32fb313d98b02258927178a98881fb32}
-      \strng{authorbibnamehash}{32fb313d98b02258927178a98881fb32}
+      \strng{fullhash}{32a8d586147f00be915b5db9ae873e9b}
+      \strng{bibnamehash}{32a8d586147f00be915b5db9ae873e9b}
+      \strng{authorbibnamehash}{32a8d586147f00be915b5db9ae873e9b}
       \strng{authornamehash}{da932685b85abc8cc2e7d859bd3ef8d0}
-      \strng{authorfullhash}{32fb313d98b02258927178a98881fb32}
+      \strng{authorfullhash}{32a8d586147f00be915b5db9ae873e9b}
+      \field{extraname}{2}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{AALTD: ECML/PKDD International Workshop on Advanced Analytics and Learning on Temporal Data}
@@ -127,7 +129,7 @@
       \strng{authornamehash}{e002707ec065c9bf9a1a121fd1541a9f}
       \strng{authorfullhash}{e002707ec065c9bf9a1a121fd1541a9f}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{2017SACLE024}
@@ -158,23 +160,23 @@
            familyi={B\bibinitperiod},
            given={Romain},
            giveni={R\bibinitperiod}}}%
-        {{hash=a6060c2931c2f8133ada26efc315f3aa}{%
+        {{hash=cef1d22fad69e251b8b0d6d8ce688b23}{%
            family={Chiapino},
            familyi={C\bibinitperiod},
-           given={Ma{ë}l},
+           given={Maël},
            giveni={M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {PMLR}%
       }
       \strng{namehash}{cc045fc2667e93d1a5de67d4823776c9}
-      \strng{fullhash}{cfa44dd6af19b0a9c9428b81c360ce53}
+      \strng{fullhash}{f04a6232abd8fa10c053470192c6aed3}
       \strng{bibnamehash}{cc045fc2667e93d1a5de67d4823776c9}
       \strng{authorbibnamehash}{cc045fc2667e93d1a5de67d4823776c9}
       \strng{authornamehash}{cc045fc2667e93d1a5de67d4823776c9}
-      \strng{authorfullhash}{cfa44dd6af19b0a9c9428b81c360ce53}
+      \strng{authorfullhash}{f04a6232abd8fa10c053470192c6aed3}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Random Forests (RFs) are strong machine learning tools for classification and regression. However, they remain supervised algorithms, and no extension of RFs to the one-class setting has been proposed, except for techniques based on second-class sampling. This work fills this gap by proposing a natural methodology to extend standard splitting criteria to the one-class setting, structurally generalizing RFs to one-class classification. An extensive benchmark of seven state-of-the-art anomaly detection algorithms is also presented. This empirically demonstrates the relevance of our approach.}
@@ -208,30 +210,31 @@
            familyi={L\bibinitperiod},
            given={Alex},
            giveni={A\bibinitperiod}}}%
-        {{hash=e5c6cb3693ab94e5bfb09a7a887ba214}{%
-           family={Szab{ó}},
+        {{hash=73b86d79ae90919492d70dea0748764d}{%
+           family={Szabó},
            familyi={S\bibinitperiod},
-           given={Zolt{á}n},
+           given={Zoltán},
            giveni={Z\bibinitperiod}}}%
         {{hash=770f881d3d15b20fe1cb3b9d79280198}{%
            family={Sangnier},
            familyi={S\bibinitperiod},
            given={Maxime},
            giveni={M\bibinitperiod}}}%
-        {{hash=6f82d836af8625efbbcd7763d875c1bf}{%
-           family={d'Alch{é}-Buc},
+        {{hash=7baa420315d9f9b2e82e06febf765d35}{%
+           family={d'Alché-Buc},
            familyi={d\bibinithyphendelim B\bibinitperiod},
            given={Florence},
            giveni={F\bibinitperiod}}}%
       }
       \strng{namehash}{da932685b85abc8cc2e7d859bd3ef8d0}
-      \strng{fullhash}{43fb3d828257ae9e5008d5eb3e91f053}
+      \strng{fullhash}{33ccb53658eb2fb20e5bdc6589381f9b}
       \strng{bibnamehash}{da932685b85abc8cc2e7d859bd3ef8d0}
       \strng{authorbibnamehash}{da932685b85abc8cc2e7d859bd3ef8d0}
       \strng{authornamehash}{da932685b85abc8cc2e7d859bd3ef8d0}
-      \strng{authorfullhash}{43fb3d828257ae9e5008d5eb3e91f053}
+      \strng{authorfullhash}{33ccb53658eb2fb20e5bdc6589381f9b}
+      \field{extraname}{3}
       \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of AISTATS}
