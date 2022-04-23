@@ -1,9 +1,9 @@
-[0] Config.pm:312> INFO - This is Biber 2.15
-[0] Config.pm:315> INFO - Logfile is 'resume_Romain_BRAULT.blg'
-[53] biber:330> INFO - === sam. févr.  6, 2021, 21:53:38
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'resume_Romain_BRAULT.blg'
+[54] biber:340> INFO - === sam. avril 23, 2022, 23:14:34
 [63] Biber.pm:415> INFO - Reading 'resume_Romain_BRAULT.bcf'
-[111] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[115] Utils.pm:384> WARN - The file 'resume_Romain_BRAULT.bcf' does not contain any citations!
-[120] bbl.pm:651> INFO - Writing 'resume_Romain_BRAULT.bbl' with encoding 'UTF-8'
-[121] bbl.pm:754> INFO - Output to resume_Romain_BRAULT.bbl
-[121] Biber.pm:128> INFO - WARNINGS: 1
+[110] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[114] Utils.pm:384> WARN - The file 'resume_Romain_BRAULT.bcf' does not contain any citations!
+[120] bbl.pm:654> INFO - Writing 'resume_Romain_BRAULT.bbl' with encoding 'UTF-8'
+[120] bbl.pm:757> INFO - Output to resume_Romain_BRAULT.bbl
+[120] Biber.pm:128> INFO - WARNINGS: 1
