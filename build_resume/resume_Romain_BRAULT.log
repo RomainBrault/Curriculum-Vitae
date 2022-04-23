@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2022.1.11)  23 APR 2022 23:31
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2022.1.11)  23 APR 2022 23:36
  system commands enabled.
  file:line:error style messages enabled.
 **resume_Romain_BRAULT.tex
@@ -1833,8 +1833,8 @@ Here is how much of LuaTeX's memory you used:
  1217 words of node memory still in use:
    3 hlist, 2 vlist, 1 rule, 52 glue, 3 kern, 1 glyph, 109 attribute, 76 glue_sp
 ec, 55 attribute_list, 1 write nodes
-   avail lists: 1:1,2:2225,3:577,4:320,5:880,6:124,7:9697,8:58,9:861,10:20,11:71
-6
+   avail lists: 1:2,2:2225,3:577,4:320,5:880,6:124,7:9723,8:58,9:861,10:20,11:71
+8
  53778 multiletter control sequences out of 65536+600000
  102 fonts using 18485527 bytes
  86i,13n,138p,752b,1687s stack positions out of 5000i,500n,10000p,200000b,200000s
@@ -1845,7 +1845,7 @@ u-BI.ttf></usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf></usr/share/fonts/truety
 pe/ubuntu/Ubuntu-R.ttf><./fonts/FontAwesome.otf><./fonts/freebooterscript.ttf></
 usr/share/texlive/texmf-dist/fonts/opentype/public/libertine/LinBiolinum_R.otf><
 /usr/share/texlive/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb>
-Output written on resume_Romain_BRAULT.pdf (1 page, 81552 bytes).
+Output written on resume_Romain_BRAULT.pdf (1 page, 81565 bytes).
 
 PDF statistics: 129 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
