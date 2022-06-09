@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.1.11)  23 APR 2022 23:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.1.11)  9 JUN 2022 22:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1350,7 +1350,7 @@ pping=tex-text;" at 23.63593pt
 .otf
 Requested font "Ubuntu/OT:script=latn;language=dflt;mapping=tex-text;" at 24.88
 pt
- -> ^^ðq^^^^^E
+ -> jc|b^^E
 Requested font "[fonts/freebooterscript]/OT:language=dflt;" at 24.88pt
  -> ./fonts/freebooterscript.ttf
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1364,9 +1364,9 @@ Package microtype Info: Character `\textemdash ' is missing
 (microtype)             in font `\TU/freebooterscript(0)/m/n/24.88'.
 (microtype)             Ignoring protrusion settings for this character.
 Requested font "Ubuntu/OT:script=latn;language=dflt;mapping=tex-text;" at 7.0pt
- -> ^^q^^^^^E
+ -> ^^Ôc|b^^E
 Requested font "Ubuntu/OT:script=latn;language=dflt;mapping=tex-text;" at 5.0pt
- -> ^^9q^^^^^E
+ -> ^^ôc|b^^E
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1541,7 +1541,7 @@ Package microtype Info: Character `\textgreater ' is missing
 (microtype)             in font `\TU/FontAwesome(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
 Requested font "Ubuntu/OT:script=latn;language=dflt;mapping=tex-text;" at 9.0pt
- -> 7r^^^^^E
+ -> ^^1c|b^^E
 Requested font "[fonts/FontAwesome]/OT:language=dflt;" at 9.0pt
  -> ./fonts/FontAwesome.otf
 Package microtype Info: Character `A' is missing
@@ -1715,29 +1715,29 @@ Overfull \hbox (3.05263pt too wide) in paragraph at lines 86--86
 
 Requested font "Ubuntu/B/OT:script=latn;language=dflt;mapping=tex-text;" at 10.
 0pt
- -> ^^8^^3^^>^^É^^(U
+ -> ^^^MC^^ä"V
 
 LaTeX Font Warning: Font shape `TU/Ubuntu(0)/m/sc' undefined
 (Font)              using `TU/Ubuntu(0)/m/n' instead on input line 99.
 
 Requested font "Ubuntu/OT:script=latn;language=dflt;mapping=tex-text;" at 17.28
 pt
- -> ^^År^^^^^E
+ -> ?d|b^^E
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 )
 Requested font "Ubuntu/OT:script=latn;language=dflt;mapping=tex-text;" at 8.0pt
- -> ^^çr^^^^^E
+ -> bd|b^^E
 Requested font "Ubuntu/OT:script=latn;language=dflt;mapping=tex-text;" at 12.0p
 t
- -> ^^r^^^^^E
+ -> ^^Âd|b^^E
 Requested font "Ubuntu/I/OT:script=latn;language=dflt;mapping=tex-text;" at 12.
 0pt
- -> ^^)r^^^^^E
+ -> ^^ãd|b^^E
 Requested font "Ubuntu/BI/OT:script=latn;language=dflt;mapping=tex-text;" at 12
 .0pt
- -> ^^Is^^^^^E
+ -> ^^d|b^^E
 
 Underfull \hbox (badness 1527) in paragraph at lines 127--127
 \TU/Ubuntu(0)/m/sc/10 Speech-to-text, Signal processing (source separation). My
@@ -1781,7 +1781,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--162
  []
 
 Requested font "Ubuntu/OT:script=latn;language=dflt;mapping=tex-text;" at 6.0pt
- -> )^^ ^^.^^É^^(U
+ -> c[3^^ä"V
 Requested font "cmmi12" at 12.0pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 Requested font "cmmi8" at 8.0pt
@@ -1813,7 +1813,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--169
 
 Requested font "Ubuntu/I/OT:script=latn;language=dflt;mapping=tex-text;" at 10.
 0pt
- -> 9L^^+^^É^^(U
+ -> ^^Ä^^Î-^^ä"V
 LaTeX Font Info:    Font shape `TU/LinLibertine(4)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 352.
 Requested font "[LinLibertine_M.otf]/OT:script=latn;language=dflt;" at 10.0pt
@@ -1829,7 +1829,7 @@ LaTeX Font Warning: Font shape `TU/Ubuntu(0)/b/sc' undefined
 
 Requested font "Ubuntu/B/OT:script=latn;language=dflt;mapping=tex-text;" at 10.
 0pt
- -> ^^Ab^^'^^É^^(U
+ -> ^^ì^^)^^ä"V
 
 Overfull \hbox (11.12877pt too wide) in paragraph at lines 388--428
 []
@@ -1849,7 +1849,7 @@ Package biblatex Warning: Split bibliography detected.
 
 Requested font "Ubuntu/B/OT:script=latn;language=dflt;mapping=tex-text;" at 12.
 0pt
- -> l^^ó^^/^^É^^(U
+ -> ^^ö^^I2^^ä"V
 
 Package biblatex Warning: Month out of range
 (biblatex)                at entry 'pmlr-v63-Brault39' on input line 429.
@@ -1954,7 +1954,7 @@ Overfull \hbox (4.80482pt too wide) in paragraph at lines 454--479
 
 Requested font "Ubuntu/OT:script=latn;language=dflt;mapping=tex-text;" at 20.74
 pt
- -> ^^ {^^ ^^É^^(U
+ -> ^^;^^$^^ä"V
 Requested font "OrnementsADF" at 20.74pt
  -> /usr/share/texlive/texmf-dist/fonts/tfm/arkandis/adforn/OrnementsADF.tfm
 [2] (/home/romain/Git/Curriculum-Vitae/build_cv/CV_Romain_BRAULT.aux)

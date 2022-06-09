@@ -14,12 +14,12 @@ env.AppendUnique(PDFLATEXFLAGS='-file-line-error')
 # Look in standard directory ~/texmf for .sty files.
 env.SetDefault(TEXMFHOME=os.path.join(os.environ['HOME'], 'texmf'))
 
-name = 'resume_Romain_BRAULT'
-source = {name: name + '.tex'}
-dependencies = [Glob('*.sty'), Glob('*.cls'), Glob('*.bib'), Glob('*.cfg'),
-                Glob('fonts/*') ]
+for name in ['resume_Romain_BRAULT', 'resume_Romain_BRAULT_fr']:
+  source = {name: name + '.tex'}
+  dependencies = [Glob('*.sty'), Glob('*.cls'), Glob('*.bib'), Glob('*.cfg'),
+                  Glob('fonts/*') ]
 
-env.Depends(source.values(), dependencies)
-pdf = env.PDF(source.values())
-env.Install('$PREFIX/bin', pdf)
-env.Precious(pdf)
+  env.Depends(source.values(), dependencies)
+  pdf = env.PDF(source.values())
+  env.Install('$PREFIX/bin', pdf)
+  env.Precious(pdf)
